@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Google Map Page</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+<script>
+    $(function(){
+    $('#header').load('layout/header.html');
+    $('#footer').load('layout/footer.html');
+    });
+</script>
+</head>
+
+<body>
+    <div id="header"></div>
+   
+    <aside>
+        <img src="images/cat.webp" alt="cat" width="300px" />
+
+    </aside>
+    <article>
+        <h2>Profile Title</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.5799025775486!2d100.488444!3d13.743865200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29906eaff2b69%3A0x86fd997e5694b89d!2sWat%20Arun%20Ratchawararam%20Ratchawaramahawihan!5e0!3m2!1sen!2smm!4v1698063547627!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+
+    </article>
+    <div id="footer"></div>
+</body>
+
+</html>

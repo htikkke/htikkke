@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Layout Form</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>
+
+<script>
+    $(function(){
+    $('#header').load('layout/header.html');
+    $('#footer').load('layout/footer.html');
+    });
+</script>
+</head>
+
+
+<body>
+   <div id="header"></div>
+    <aside>
+        <img src="images/cat.webp" alt="cat" width="300px" />
+
+    </aside>
+    <article>
+        <h2>Profile Title</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quis praesentium. Sit qui consequuntur ipsa
+            commodi magni optio incidunt quaerat asperiores. Temporibus ipsam delectus voluptatibus ut fuga inventore,
+            eum unde?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit temporibus at pariatur ab, corrupti reiciendis
+            eveniet sequi quae incidunt a laborum repudiandae asperiores vitae molestias accusamus non ratione eius
+            earum!Lorem
+        </p>
+        <!-- <video src="/CommonHTML/login/images/dwsample_swf.swf"></video> -->
+        <object data="/CommonHTML/login/images/dwsample_swf.swf" width="600" height="800" type="application/x-shockwave-flash">
+            Please install the Shockwave plugin to watch this movie.
+        </object>
+
+    </article>
+    <div id="footer"></div>
+
+</body>
+
+</html>
